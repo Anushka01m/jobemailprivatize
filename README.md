@@ -34,3 +34,5 @@ This tool generates a unique **Job Application Code** (e.g., `JOB-A1B2C3D4`).
 
 ---
 *Developed by Anushka*
+<img width="1907" height="955" alt="image" src="https://github.com/user-attachments/assets/b791b247-2629-475b-b546-0afd10b67ae9" />
+
