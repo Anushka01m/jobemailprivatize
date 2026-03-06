@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Code Generator | Secure Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔐 Secure Job Application Code</h1>
+        <p class="subtitle">Protect your email from spam using our unique code system.</p>
+        
+        <div class="instruction">
+            👉 Enter email 👉 Get unique code 👉 Paste code on LinkedIn
+        </div>
+
+        <input type="email" id="emailInput" placeholder="yourname@gmail.com" required>
+        <button class="btn-generate" id="generateBtn">Generate Code 🚀</button>
+
+        <div id="resultBox" class="result-container">
+            <p>🎉 Your code is ready!</p>
+            <div id="finalCode" class="code-display">JOB-XXXXXX</div>
+            <div class="button-group">
+                <button class="btn-copy" id="copyBtn">Copy Code 📋</button>
+                <button class="btn-download" id="downloadBtn">Download CSV 📥</button>
+            </div>
+        </div>
+
+        <footer>Made with ❤️ Anushka to help the LinkedIn community grow</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
